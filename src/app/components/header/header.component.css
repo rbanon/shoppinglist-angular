@@ -1,0 +1,31 @@
+menu {    
+    margin: 0 5% 0 5%;    
+    border-radius: 15px;
+}
+
+menu ul{
+    
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+menu ul li a{
+    background : rgb(103, 44, 148);
+    border-radius: 15px;
+    display: block;
+    color: white;
+    text-decoration : none;
+    padding: 10px 15px;
+    margin: 10px;
+    
+}
+
+menu ul li a:hover{
+    text-decoration: underline;
+    background : rgb(156, 68, 223);
+}
+
+
